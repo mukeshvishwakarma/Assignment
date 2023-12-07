@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-commerce Data Processing Report</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+    <!-- Include Bootstrap and DataTables styles/scripts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>E-commerce Data Processing Application</h1>
+        <a href="{% url 'download_report' %}" class="btn btn-primary">Download Report</a>
+        <h2>Total Sales per Product:</h2>
+        <table id="bootstrapdatatable">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Total Sales</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for product, sales in product_sales.items %}
+                <tr>
+                    <td>{{ product }}</td>
+                    <td>{{ sales }} units</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h2>Best Selling Product:</h2>
+        <p>{{ best_selling_product.product_name }} with {{ best_selling_product.total_sales }} units</p>
+
+        <h2>Total Revenue per Category:</h2>
+        <table id="bootstrapdatatable1">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Total Revenue</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for category, revenue in category_revenue.items %}
+                <tr>
+                    <td>{{ category }}</td>
+                    <td>${{ revenue|floatformat:2 }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div id="reportPlaceholder"></div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#bootstrapdatatable, #bootstrapdatatable1').DataTable({
+                "searching": true,
+                "paging": true,
+                "order": [
+                    [0, "desc"]
+                ],
+                "ordering": true,
+                "lengthMenu": [
+                    [5, 25, 50, 100, -1],
+                    [5, 25, 50, 100, 'All']
+                ]
+            });
+        });
+
+    
+    </script>
+</body>
+
+</html>

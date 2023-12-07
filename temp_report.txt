@@ -1,0 +1,56 @@
+E-commerce Data Processing Report
+
+Total Sales per Product:
+Laptop: 10 units
+T-shirt: 50 units
+Headphones: 20 units
+Backpack: 30 units
+Smartphone: 15 units
+Dress Shirt: 25 units
+Mouse: 40 units
+Sunglasses: 15 units
+Tablet: 12 units
+Jeans: 30 units
+Camera: 8 units
+Hat: 20 units
+Jacket: 18 units
+Fitness Tracker: 15 units
+Wallet: 25 units
+Sweater: 22 units
+Bluetooth Speaker: 12 units
+Scarf: 30 units
+Running Shoes: 20 units
+Desk Lamp: 15 units
+Printed T-shirt: 40 units
+Gaming Mouse: 18 units
+Umbrella: 25 units
+Skirt: 15 units
+External Hard Drive: 10 units
+Watch: 30 units
+Hoodie: 25 units
+Duffle Bag: 12 units
+Water Bottle: 40 units
+Dress: 20 units
+Wireless Earbuds: 15 units
+Sunscreen: 30 units
+Back Support Cushion: 25 units
+Beach Towel: 18 units
+Blender: 10 units
+Travel Mug: 22 units
+Candle Holder: 15 units
+Portable Charger: 20 units
+Luggage Set: 8 units
+Smart Thermostat: 12 units
+
+Best Selling Product: T-shirt with 50 units
+
+Total Revenue per Category:
+Electronics: $24325.00
+Clothing: $8240.00
+Accessories: $4870.00
+Footwear: $1000.00
+Home & Office: $1835.00
+Beauty & Personal Care: $360.00
+Outdoor & Travel: $1614.00
+Appliances: $500.00
+Home & Decor: $150.00

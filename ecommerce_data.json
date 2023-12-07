@@ -1,0 +1,282 @@
+[
+    {
+        "product_id": 1,
+        "product_name": "Laptop",
+        "category": "Electronics",
+        "quantity": 10,
+        "sale_price": 800.00
+    },
+    {
+        "product_id": 2,
+        "product_name": "T-shirt",
+        "category": "Clothing",
+        "quantity": 50,
+        "sale_price": 20.00
+    },
+    {
+        "product_id": 3,
+        "product_name": "Headphones",
+        "category": "Electronics",
+        "quantity": 20,
+        "sale_price": 50.00
+    },
+    {
+        "product_id": 4,
+        "product_name": "Backpack",
+        "category": "Accessories",
+        "quantity": 30,
+        "sale_price": 40.00
+    },
+    {
+        "product_id": 5,
+        "product_name": "Smartphone",
+        "category": "Electronics",
+        "quantity": 15,
+        "sale_price": 400.00
+    },
+    {
+        "product_id": 6,
+        "product_name": "Dress Shirt",
+        "category": "Clothing",
+        "quantity": 25,
+        "sale_price": 30.00
+    },
+    {
+        "product_id": 7,
+        "product_name": "Mouse",
+        "category": "Electronics",
+        "quantity": 40,
+        "sale_price": 15.00
+    },
+    {
+        "product_id": 8,
+        "product_name": "Sunglasses",
+        "category": "Accessories",
+        "quantity": 15,
+        "sale_price": 25.00
+    },
+    {
+        "product_id": 9,
+        "product_name": "Tablet",
+        "category": "Electronics",
+        "quantity": 12,
+        "sale_price": 200.00
+    },
+    {
+        "product_id": 10,
+        "product_name": "Jeans",
+        "category": "Clothing",
+        "quantity": 30,
+        "sale_price": 35.00
+    },
+    {
+        "product_id": 11,
+        "product_name": "Camera",
+        "category": "Electronics",
+        "quantity": 8,
+        "sale_price": 300.00
+    },
+    {
+        "product_id": 12,
+        "product_name": "Hat",
+        "category": "Accessories",
+        "quantity": 20,
+        "sale_price": 10.00
+    },
+    {
+        "product_id": 13,
+        "product_name": "Jacket",
+        "category": "Clothing",
+        "quantity": 18,
+        "sale_price": 70.00
+    },
+    {
+        "product_id": 14,
+        "product_name": "Fitness Tracker",
+        "category": "Electronics",
+        "quantity": 15,
+        "sale_price": 50.00
+    },
+    {
+        "product_id": 15,
+        "product_name": "Wallet",
+        "category": "Accessories",
+        "quantity": 25,
+        "sale_price": 15.00
+    },
+    {
+        "product_id": 16,
+        "product_name": "Sweater",
+        "category": "Clothing",
+        "quantity": 22,
+        "sale_price": 40.00
+    },
+    {
+        "product_id": 17,
+        "product_name": "Bluetooth Speaker",
+        "category": "Electronics",
+        "quantity": 12,
+        "sale_price": 60.00
+    },
+    {
+        "product_id": 18,
+        "product_name": "Scarf",
+        "category": "Accessories",
+        "quantity": 30,
+        "sale_price": 18.00
+    },
+    {
+        "product_id": 19,
+        "product_name": "Running Shoes",
+        "category": "Footwear",
+        "quantity": 20,
+        "sale_price": 50.00
+    },
+    {
+        "product_id": 20,
+        "product_name": "Desk Lamp",
+        "category": "Home & Office",
+        "quantity": 15,
+        "sale_price": 25.00
+    },
+    {
+        "product_id": 21,
+        "product_name": "Printed T-shirt",
+        "category": "Clothing",
+        "quantity": 40,
+        "sale_price": 15.00
+    },
+    {
+        "product_id": 22,
+        "product_name": "Gaming Mouse",
+        "category": "Electronics",
+        "quantity": 18,
+        "sale_price": 35.00
+    },
+    {
+        "product_id": 23,
+        "product_name": "Umbrella",
+        "category": "Accessories",
+        "quantity": 25,
+        "sale_price": 12.00
+    },
+    {
+        "product_id": 24,
+        "product_name": "Skirt",
+        "category": "Clothing",
+        "quantity": 15,
+        "sale_price": 25.00
+    },
+    {
+        "product_id": 25,
+        "product_name": "External Hard Drive",
+        "category": "Electronics",
+        "quantity": 10,
+        "sale_price": 80.00
+    },
+    {
+        "product_id": 26,
+        "product_name": "Watch",
+        "category": "Accessories",
+        "quantity": 30,
+        "sale_price": 40.00
+    },
+    {
+        "product_id": 27,
+        "product_name": "Hoodie",
+        "category": "Clothing",
+        "quantity": 25,
+        "sale_price": 45.00
+    },
+    {
+        "product_id": 28,
+        "product_name": "Duffle Bag",
+        "category": "Accessories",
+        "quantity": 12,
+        "sale_price": 30.00
+    },
+    {
+        "product_id": 29,
+        "product_name": "Water Bottle",
+        "category": "Accessories",
+        "quantity": 40,
+        "sale_price": 8.00
+    },
+    {
+        "product_id": 30,
+        "product_name": "Dress",
+        "category": "Clothing",
+        "quantity": 20,
+        "sale_price": 60.00
+    },
+    {
+        "product_id": 31,
+        "product_name": "Wireless Earbuds",
+        "category": "Electronics",
+        "quantity": 15,
+        "sale_price": 35.00
+    },
+    {
+        "product_id": 32,
+        "product_name": "Sunscreen",
+        "category": "Beauty & Personal Care",
+        "quantity": 30,
+        "sale_price": 12.00
+    },
+    {
+        "product_id": 33,
+        "product_name": "Back Support Cushion",
+        "category": "Home & Office",
+        "quantity": 25,
+        "sale_price": 20.00
+    },
+    {
+        "product_id": 34,
+        "product_name": "Beach Towel",
+        "category": "Outdoor & Travel",
+        "quantity": 18,
+        "sale_price": 18.00
+    },
+    {
+        "product_id": 35,
+        "product_name": "Blender",
+        "category": "Appliances",
+        "quantity": 10,
+        "sale_price": 50.00
+    },
+    {
+        "product_id": 36,
+        "product_name": "Travel Mug",
+        "category": "Outdoor & Travel",
+        "quantity": 22,
+        "sale_price": 15.00
+    },
+    {
+        "product_id": 37,
+        "product_name": "Candle Holder",
+        "category": "Home & Decor",
+        "quantity": 15,
+        "sale_price": 10.00
+    },
+    {
+        "product_id": 38,
+        "product_name": "Portable Charger",
+        "category": "Electronics",
+        "quantity": 20,
+        "sale_price": 25.00
+    },
+    {
+        "product_id": 39,
+        "product_name": "Luggage Set",
+        "category": "Outdoor & Travel",
+        "quantity": 8,
+        "sale_price": 120.00
+    },
+    {
+        "product_id": 40,
+        "product_name": "Smart Thermostat",
+        "category": "Home & Office",
+        "quantity": 12,
+        "sale_price": 80.00
+    }
+]
